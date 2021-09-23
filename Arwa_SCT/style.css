@@ -1,0 +1,44 @@
+body {
+    background-color: darkcyan;
+}
+
+.main {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 7px #888888;
+    background-color: whitesmoke;
+    margin-left:100px;
+    margin-top: 30px;
+    
+}
+
+.head_Q {
+    background-color: rgb(32, 31, 31);
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.optional_Q {
+    border-radius: 4px;
+    padding: 20px 5px;
+    background-color: whitesmoke;
+}
+
+li {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+    display: block;
+}
+
+span {
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 16px;
+    font-size: 15px;
+    border: 1px solid rgb(32, 31, 31);
+}

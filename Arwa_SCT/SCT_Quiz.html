@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>SCT_quiz1</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="head_Q">
+            CAN YOU GUESS MY SECRET TALENT?
+        </div>
+
+        <div class="optional_Q">
+            <li onclick="clr(this,'f',)"><span> A</span> I can juggle.</li>
+            <li onclick="clr(this, 't')"><span> B</span> I can play the drums.</li>
+            <li onclick="clr(this,'f')"><span> C</span> l can dance the tango.</li>
+            <li onclick="clr(this, 'f')"><span> D</span> I speak 3 languages fluently.</li>
+        </div>
+    </div>
+
+
+    <script>
+        p = 0
+
+        function clr(elmnt, x) {
+            if (p == 0) {
+                p = 1
+                if (x == 't')
+                    elmnt.style.background = 'green';
+                else
+                elmnt.style.background = 'red';
+                document.getElementsByTagName("li")[1].style.backgroundColor = "green";
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
